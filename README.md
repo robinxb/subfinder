@@ -27,3 +27,14 @@ Run docker command / 运行docker指令
 You can set folder to the temp folder where incompleted downloadings store in.
 
 你可以将目标文件夹设置为未完成下载的临时文件夹。
+
+# Example / 例子
+
+```
+[~] # docker run -d -v "/share/ttg/temp/:/mymovie" -e SUBFIND_DIR=/mymovie/ robinxb/subfinder
+[~] # docker logs 38e
+crond: crond (busybox 1.30.1) started, log level 8
+crond: USER root pid   9 cmd subfinder ${SUBFIND_DIR}
+[07/21 02:40:01]-[INFO]: 开始
+[07/21 02:40:01]-[INFO]: 在 /mymovie 下没有发现视频文件
+```
