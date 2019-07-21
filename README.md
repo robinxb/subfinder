@@ -21,3 +21,9 @@ Run docker command / 运行docker指令
 # Environment / 环境变量
 
 1. `SUBFIND_DIR` Target folder 目标文件夹
+
+# Suggestion / 建议
+
+You can set folder to the temp folder where incompleted downloadings store in.
+
+你可以将目标文件夹设置为未完成下载的临时文件夹。
