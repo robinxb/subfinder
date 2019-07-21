@@ -1,4 +1,4 @@
-# subfinder in Docker 容器化字幕查找器 
+# subfinder in Docker / 容器化字幕查找器 
 
 subfinder 是一个通用字幕查找器，可以查找字幕并下载。
 
@@ -12,7 +12,7 @@ I made this project into container, you can save time for build it.
 
 This container will detect subtitles every 10 minutes in the folder and its subfolder which you set before.
 
-# How to use 如何使用
+# How to use / 如何使用
 
 Run docker command / 运行docker指令
 
